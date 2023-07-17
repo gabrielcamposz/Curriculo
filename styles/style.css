@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22d4fd;
-    --cor-hover: #272727;
+    --cor-primaria: #F4E3B2;
+    --cor-secundaria: #000;
+    --cor-terciaria: #4472CA;
+    --cor-hover:#000000;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -148,6 +148,7 @@ summary {
 
 .botao_apresentacao:hover {
     background-color: var(--cor-hover);
+    color: var(--cor-primaria);
 }
 
 /*tags curriculo*/
@@ -211,6 +212,7 @@ h2 {
 
     .cabecalho__menu {
         justify-content: center;
+        font-size: 25px;
     }
 
     .apresentacao {
