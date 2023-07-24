@@ -4,7 +4,9 @@
     --cor-primaria: #F4E3B2;
     --cor-secundaria: #000;
     --cor-terciaria: #4472CA;
-    --cor-hover:#000000;
+
+    --cor-hover:#E3C362;
+    --cor-hover-fonte:#4472CA;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -148,7 +150,7 @@ summary {
 
 .botao_apresentacao:hover {
     background-color: var(--cor-hover);
-    color: var(--cor-primaria);
+    color: var(--cor-hover-fonte);
 }
 
 /*tags curriculo*/
@@ -207,12 +209,12 @@ h2 {
 
 @media (max-width: 1440px) {
     .cabecalho {
-        padding: 10%;
+        padding: 2%;
     }
 
     .cabecalho__menu {
-        justify-content: center;
-        font-size: 25px;
+        justify-content: space-between;
+        font-size: 12px;
     }
 
     .apresentacao {
