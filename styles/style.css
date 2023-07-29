@@ -49,7 +49,7 @@ body {
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 6% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,12 +209,12 @@ h2 {
 
 @media (max-width: 1440px) {
     .cabecalho {
-        padding: 2%;
+        padding: 1%;
     }
 
-    .cabecalho__menu {
+    .cabecalho__menu_link {
         justify-content: space-between;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .apresentacao {
@@ -235,8 +235,18 @@ h2 {
         width: auto;
     }
 
+    .apresentacao__imagem{
+        position: flex;
+        width: 100%;
+    }
+
     .container__foto {
         position: flex;
+        padding-bottom: 0%;
+    }
+
+    .foto_curriculo{
+        width: 100%;
         padding-bottom: 0%;
     }
 
